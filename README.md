@@ -90,4 +90,5 @@ For any queries or support, please reach out to <b>arnavverma522@gmail.com</b>
 
 ---
 
-Remember to seek professional help if you're experiencing severe mental health issues. This AI assistant is not a substitute for professional medical advice, diagnosis, or treatment.
+**Remember to seek professional help if you're experiencing severe mental health issues. This AI assistant is not a substitute for professional medical advice, diagnosis, or treatment.
+**
