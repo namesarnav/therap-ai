@@ -21,7 +21,7 @@ AI Therapy Assistant is a cutting-edge application designed to provide accessibl
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Deployment**: Vercel
-- **AI Integration**: [Your AI Model/Service]
+- **AI Integration**: OpenAI GPT-4o, Claude Sonnet-3.5
 
 ## Getting Started
 
