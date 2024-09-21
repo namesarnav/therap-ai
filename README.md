@@ -1,5 +1,5 @@
 # TherapAI
-<href src='https://therap-ai.vercel.app'>
+
 An AI-powered chat assistant providing free therapy services, built with modern web technologies.
 
 ## Description
