@@ -1,64 +1,93 @@
-<a href="https://chat.vercel.ai/">
-<!--   <img alt="Next.js 14 and App Router-ready AI chatbot." src="https://chat.vercel.ai/opengraph-image.png"> -->
-  <h1 align="center">TherapAI</h1> 
-</a>
+# AI Therapy Assistant
 
-<p align="center">
-  An AI Powered Therapist, Talk About Your Feelings Without any Hesitation
-</p>
+An AI-powered chat assistant providing free therapy services, built with modern web technologies.
 
-<br/>
+## Description
+
+AI Therapy Assistant is a cutting-edge application designed to provide accessible mental health support through an AI-driven chat interface. Our goal is to make therapy more accessible and affordable for everyone, anytime, anywhere.
 
 ## Features
 
-- [Next.js](https://nextjs.org) App Router
-- React Server Components (RSCs), Suspense, and Server Actions
-- [Vercel AI SDK](https://sdk.vercel.ai/docs) for streaming chat UI
-- Support for OpenAI (default), Anthropic, Cohere, Hugging Face, or custom AI chat models and/or LangChain
-- [shadcn/ui](https://ui.shadcn.com)
-  - Styling with [Tailwind CSS](https://tailwindcss.com)
-  - [Radix UI](https://radix-ui.com) for headless component primitives
-  - Icons from [Phosphor Icons](https://phosphoricons.com)
-- Chat History, rate limiting, and session storage with [Vercel KV](https://vercel.com/storage/kv)
-- [NextAuth.js](https://github.com/nextauthjs/next-auth) for authentication
+- **24/7 AI Therapy Sessions**: Get support whenever you need it, day or night.
+- **Personalized Conversations**: Our AI adapts to your unique needs and concerns.
+- **Secure and Anonymous**: Your privacy is our top priority.
+- **Multi-language Support**: Communicate in your preferred language.
+- **Progress Tracking**: Monitor your mental health journey over time.
+- **Resource Recommendations**: Get tailored suggestions for self-help materials.
 
-## Model Providers
+## Technology Stack
 
-This template ships with OpenAI `gpt-3.5-turbo` as the default. However, thanks to the [Vercel AI SDK](https://sdk.vercel.ai/docs), you can switch LLM providers to [Anthropic](https://anthropic.com), [Cohere](https://cohere.com/), [Hugging Face](https://huggingface.co), or using [LangChain](https://js.langchain.com) with just a few lines of code.
+- **Frontend**: React with Next.js framework
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Deployment**: Vercel
+- **AI Integration**: [Your AI Model/Service]
 
-## Deploy Your Own
+## Getting Started
 
-You can deploy your own version of the Next.js AI Chatbot to Vercel with one click:
+### Prerequisites
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?demo-title=Next.js+Chat&demo-description=A+full-featured%2C+hackable+Next.js+AI+chatbot+built+by+Vercel+Labs&demo-url=https%3A%2F%2Fchat.vercel.ai%2F&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F4aVPvWuTmBvzM5cEdRdqeW%2F4234f9baf160f68ffb385a43c3527645%2FCleanShot_2023-06-16_at_17.09.21.png&project-name=Next.js+Chat&repository-name=nextjs-chat&repository-url=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fai-chatbot&from=templates&skippable-integrations=1&env=OPENAI_API_KEY%2CAUTH_SECRET&envDescription=How+to+get+these+env+vars&envLink=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fai-chatbot%2Fblob%2Fmain%2F.env.example&teamCreateStatus=hidden&stores=[{"type":"kv"}])
+- Node.js (v14 or later)
+- npm or yarn
 
-## Creating a KV Database Instance
+### Installation
 
-Follow the steps outlined in the [quick start guide](https://vercel.com/docs/storage/vercel-kv/quickstart#create-a-kv-database) provided by Vercel. This guide will assist you in creating and configuring your KV database instance on Vercel, enabling your application to interact with it.
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/ai-therapy-assistant.git
+   ```
 
-Remember to update your environment variables (`KV_URL`, `KV_REST_API_URL`, `KV_REST_API_TOKEN`, `KV_REST_API_READ_ONLY_TOKEN`) in the `.env` file with the appropriate credentials provided during the KV database setup.
+2. Navigate to the project directory:
+   ```
+   cd ai-therapy-assistant
+   ```
 
-## Running locally
+3. Install dependencies:
+   ```
+   npm install
+   ```
+   or
+   ```
+   yarn install
+   ```
 
-You will need to use the environment variables [defined in `.env.example`](.env.example) to run Next.js AI Chatbot. It's recommended you use [Vercel Environment Variables](https://vercel.com/docs/projects/environment-variables) for this, but a `.env` file is all that is necessary.
+4. Set up environment variables:
+   Create a `.env.local` file in the root directory and add necessary variables (e.g., API keys).
 
-> Note: You should not commit your `.env` file or it will expose secrets that will allow others to control access to your various OpenAI and authentication provider accounts.
+5. Run the development server:
+   ```
+   npm run dev
+   ```
+   or
+   ```
+   yarn dev
+   ```
 
-1. Install Vercel CLI: `npm i -g vercel`
-2. Link local instance with Vercel and GitHub accounts (creates `.vercel` directory): `vercel link`
-3. Download your environment variables: `vercel env pull`
+6. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-```bash
-pnpm install
-pnpm dev
-```
+## Usage
 
-Your app template should now be running on [localhost:3000](http://localhost:3000/).
+1. **Sign Up/Login**: Create an account or log in to access the AI therapy assistant.
+2. **Start a Session**: Click on "New Session" to begin chatting with the AI.
+3. **Engage in Conversation**: Type your thoughts, feelings, or concerns, and receive supportive responses.
+4. **Review Progress**: Check your dashboard to see session history and track your progress.
 
-## Authors
+## Contributing
 
-This library is created by [Vercel](https://vercel.com) and [Next.js](https://nextjs.org) team members, with contributions from:
+We welcome contributions to improve the AI Therapy Assistant. Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
-- Jared Palmer ([@jaredpalmer](https://twitter.com/jaredpalmer)) - [Vercel](https://vercel.com)
-- Shu Ding ([@shuding\_](https://twitter.com/shuding_)) - [Vercel](https://vercel.com)
-- shadcn ([@shadcn](https://twitter.com/shadcn)) - [Vercel](https://vercel.com)
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- [List any libraries, services, or individuals you want to acknowledge]
+
+## Contact
+
+For any queries or support, please reach out to [your contact information or support channels].
+
+---
+
+Remember to seek professional help if you're experiencing severe mental health issues. This AI assistant is not a substitute for professional medical advice, diagnosis, or treatment.
