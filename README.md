@@ -34,7 +34,7 @@ AI Therapy Assistant is a cutting-edge application designed to provide accessibl
 
 1. Clone the repository:
    ```
-   git clone [https://github.com/namesarnav/therap-ai.git]
+   git clone https://github.com/namesarnav/therap-ai.git
    ```
 
 2. Navigate to the project directory:
